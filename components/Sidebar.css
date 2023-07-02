@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
+
+.sidebar {
+    
+    width: 5%;
+    height: 100vh;
+    background-color: rgb(39, 1, 26);
+    font-family: 'Agdasima', sans-serif;
+    position: fixed;
+    top: 0px;
+    transition: 0.3s;
+    z-index: 1;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+
+}
+
+.sidebar2 {
+    
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(39, 1, 26);
+    font-family: 'Agdasima', sans-serif;
+    position: fixed;
+    top: 0px;
+    transition: 0.3s;
+    z-index: 1;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+
+}
+
+.logoSection {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    
+}
+
+.sidebarsection {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sidebarsection:before {
+    content: "";
+    align-self: center;
+    
+    width: 70%;
+    
+    border-bottom: 1px solid white;
+    
+}
+
+.sidebarsection:after {
+    content: "";
+    align-self: center;
+    
+    width: 70%;
+    
+    border-bottom: 1px solid white;
+    
+}
+
+.sidebarsection a {
+    
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.iconsection {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sidelink p {
+    display: flex;
+    width: 50%;
+    
+}
+
+.sidelink:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebaricon {
+    display: flex;
+    width: 4em;
+    height: auto;
+}
+
+.sideBarCloseBtn {
+    
+    width: 10%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.sideBarCloseBtn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sideBarOpenBtn {
+    
+    width: 35%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sideBarOpenBtn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menuIcon {
+    width: 100%;
+    height: auto;
+    
+}
+
+.logo {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    
+}
+
+.sidelogo {
+    padding-top: 2em;
+}
+
+.sideFooter {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSection {
+    height: 80%;
+    width: 70%;
+    
+}

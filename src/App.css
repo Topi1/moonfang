@@ -1,0 +1,38 @@
+
+body {
+    background-color: rgb(81, 9, 58);
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer {
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+    justify-content: space-between;
+}
+
+.maindisplay {
+    
+    margin-left: auto;
+    
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.artic {
+    height: 5000px;
+}
+
+a:hover { 
+    cursor: pointer;
+    text-decoration: underline #b868b4;
+     
+}
+
+a {
+    text-decoration: none;
+}
