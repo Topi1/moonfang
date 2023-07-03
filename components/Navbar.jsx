@@ -10,21 +10,25 @@ export default function Navbar() {
     <>
         <nav className="navbar n1">
                     
-                    <section className="smallnavsec">
+                    <section className="logonavsec">
                         <img src={logo} alt="" className='logo logo1'/>
                     </section>
                     
                     
                     <section className="navsection">
                         
+                            <a href="">NEWS</a>
                             <a href="">DIABLO II</a>
                             <a href="">DIABLO III</a>
                             <a href="">DIABLO IV</a>
+                            <a href="">ELDEN RING</a>
                             <a href="">FORUMS<img src={forumIcon} alt="" className='forumicon'/> </a>
                         
                         
                     </section>
-                    <section className="smallnavsec"></section>
+                    <section className="smallnavsec">
+                      
+                    </section>
                     
         </nav>
         <nav className="navbar n2">
@@ -35,6 +39,7 @@ export default function Navbar() {
                 
                 <section className="navsection">
                     
+                    <a href="">HOME</a>
                     <a href="">BEGINNER GUIDES</a>
                     <a href="">BUILD GUIDES</a>
                     <a href="">ITEMS</a>

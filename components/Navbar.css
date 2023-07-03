@@ -3,6 +3,7 @@
 .navbar {
     
     width: 100%;
+    min-width: 700px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -11,31 +12,44 @@
 }
 
 .n1 {
-    height: 12vh;
+    height: 100px;
     border-bottom: 1px solid white;
     background-color: rgb(65, 3, 42);
 }
 
 .n2 {
-    height: 8vh;
+    height: 60px;
     background-color: rgb(52, 2, 34);
     position: sticky;
     top: 0px;
 }
 
+.logonavsec {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 2;
+}
+
 .smallnavsec {
     height: 100%;
-    width: 10%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 2;
 }
 
 .navsection {
     display: flex;
     height: 100%;
-    width: 100%;
+    width: 70%;
     align-self: center;
     align-items: center;
     justify-content: space-evenly;
-    
+    flex-shrink: 0;
 }
 
 .navsection a {
@@ -54,7 +68,9 @@
 .logo1 {
     height: 100%;
     width: auto;
-    padding-left: 1em;
+    z-index: 1;
+    transition: 0.2s;
+    
 } 
 
 .logo2 {
@@ -67,3 +83,9 @@
     width: auto;
     padding-left: 1em;
 }
+
+@media only screen and (max-width: 1300px) {
+    .logo1 {
+      display: none;
+    }
+  }

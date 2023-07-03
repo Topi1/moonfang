@@ -2,19 +2,21 @@
 
 .sidebar {
     
-    width: 5%;
-    height: 100vh;
+    width: 100px;
+    height: 100%;
+    min-height: 900px;
     background-color: rgb(39, 1, 26);
     font-family: 'Agdasima', sans-serif;
     position: fixed;
     top: 0px;
     transition: 0.3s;
-    z-index: 1;
-    overflow-x: hidden;
+    z-index: 2;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    flex-shrink: 0;
     
     
 
@@ -22,19 +24,21 @@
 
 .sidebar2 {
     
-    width: 15%;
-    height: 100vh;
+    width: 300px;
+    height: 100%;
+    min-height: 1000px;
     background-color: rgb(39, 1, 26);
     font-family: 'Agdasima', sans-serif;
     position: fixed;
     top: 0px;
     transition: 0.3s;
-    z-index: 1;
-    overflow-x: hidden;
+    z-index: 2;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    
     
     
 
@@ -43,17 +47,20 @@
 .logoSection {
     display: flex;
     flex-direction: column;
-    height: 20vh;
+    height: 20%;
+    width: 100%;
+    
     
 }
 
 .sidebarsection {
-    height: 60vh;
+    height: 60%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .sidebarsection:before {
@@ -84,7 +91,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+    position: relative;
 }
 
 .iconsection {
@@ -109,6 +116,7 @@
     display: flex;
     width: 4em;
     height: auto;
+    
 }
 
 .sideBarCloseBtn {
@@ -155,21 +163,21 @@
 
 .logo {
     cursor: pointer;
-    width: 100%;
-    height: auto;
-    
 }
 
 .sidelogo {
     padding-top: 2em;
+    width: 100%;
+    height: auto;
 }
 
 .sideFooter {
-    height: 20vh;
+    height: 20%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .footerSection {
@@ -177,3 +185,55 @@
     width: 70%;
     
 }
+
+/* Submenus on hover */
+
+.submenu1 {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    left: 100%;
+    top: 0;
+    background-color: rgb(52, 2, 34);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.submenu1 a {
+    width: 100%;
+    height: 100%;
+}
+
+.submenu1 a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.submenu2 {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    left: 100%;
+    top: 0;
+    background-color: rgb(52, 2, 34);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.submenu2 a {
+    width: 100%;
+    height: 100%;
+}
+
+.submenu2 a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+

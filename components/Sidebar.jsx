@@ -16,6 +16,10 @@ const [style, setStyle] = useState("sidebar");
 
 const [show, setShow] = useState(true);
 
+const [showHover1, setShowHover1] = useState(false);
+
+const [showHover2, setShowHover2] = useState(false);
+
 function handleClick() {
 
     if (style === "sidebar") {
@@ -24,7 +28,6 @@ function handleClick() {
     else {
         setStyle("sidebar")
     }
-
 
     setShow(!show);
    
@@ -46,23 +49,48 @@ function handleClick() {
 
             
             <section className = "sidebarsection">
-                <a href="" className='sidelink'> 
+                <a href="" className='sidelink' 
+                   onMouseEnter={() => setShowHover1(true)}
+                   onMouseLeave={() => setShowHover1(false)}> 
                     <section className="iconsection"><img src={login} alt="" className='sidebaricon'/></section> 
                     {!show ? <p>SIGN IN / SIGN UP</p> :null}
+
+                    {showHover1 && (
+                    <div className="submenu1">
+
+                        <a href="">SIGN IN</a>
+                        <a href="">SIGN UP</a>
+                        
+                    </div>)}
+
+                </a>
+                <a href="" className='sidelink' 
+                   onMouseEnter={() => setShowHover2(true)}
+                   onMouseLeave={() => setShowHover2(false)}> 
+                    <section className="iconsection"><img src={games} alt="" className='sidebaricon'/></section> 
+                    {!show ? <p>GAME GUIDES</p> :null}
+                    
+                    {showHover2 && (
+                    <div className="submenu2">
+
+                        <a href="">DIABLO II</a>
+                        <a href="">DIABLO III</a>
+                        <a href="">DIABLO IV</a>
+                        <a href="">ELDEN RING</a>
+                    
+                    </div>)}
+
                 </a>
                 <a href="" className='sidelink'> 
                     <section className="iconsection"><img src={news} alt="" className='sidebaricon'/></section> 
                     {!show ? <p>NEWS</p> :null}
                 </a>
                 <a href="" className='sidelink'> 
-                    <section className="iconsection"><img src={games} alt="" className='sidebaricon'/></section> 
-                    {!show ? <p>GAMES</p> :null}
-                </a>
-                <a href="" className='sidelink'> 
                     <section className="iconsection"><img src={contact} alt="" className='sidebaricon'/></section> 
                     {!show ? <p>CONTACT</p> :null}
                 </a>
             </section>
+
 
             <footer className='sideFooter'>
                 <section className="footerSection">
