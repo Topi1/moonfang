@@ -149,7 +149,7 @@
     align-self: flex-end;
     justify-content: center;
     align-items: center;
-    
+    border-radius: 5px;
     color: white;
     cursor: pointer;
     transition: 0.2s;
