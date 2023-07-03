@@ -57,20 +57,27 @@
     justify-content: center;
     align-items: center;
     color: white;
-    height: 50%;
+    height: 80%;
+    transition: 0.3s;
+    
     
 }
 
-.logo {
+.navsection a:hover { 
     cursor: pointer;
+    text-decoration: underline #b868b4;
+    color: #b868b4;
+    
+     
 }
+
 
 .logo1 {
     height: 100%;
     width: auto;
     z-index: 1;
     transition: 0.2s;
-    
+    cursor: pointer;
 } 
 
 .logo2 {
@@ -79,7 +86,7 @@
 } 
 
 .forumicon {
-    height: 80%;
+    height: 70%;
     width: auto;
     padding-left: 1em;
 }

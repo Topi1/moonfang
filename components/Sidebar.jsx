@@ -3,10 +3,16 @@ import "./Sidebar.css"
 import logo2 from "../pictures/FangText.png"
 import logo from "../pictures/FangLogo.png"
 import menu from "../pictures/Hamburger.png"
+
 import login from "../pictures/logIn.png"
 import games from "../pictures/GamesIcon.png"
 import news from "../pictures/newsIcon.png"
 import contact from "../pictures/contactIcon.png"
+
+import twitter from "../pictures/twitterIcon.png"
+import instagram from "../pictures/igIcon.png"
+import facebook from "../pictures/fbIcon.png"
+import youtube from "../pictures/ytIcon.png"
 
 
 
@@ -74,9 +80,9 @@ function handleClick() {
                     <div className="submenu2">
 
                         <a href="">DIABLO II</a>
-                        <a href="">DIABLO III</a>
                         <a href="">DIABLO IV</a>
                         <a href="">ELDEN RING</a>
+                        <a href="">BALDUR'S GATE III</a>
                     
                     </div>)}
 
@@ -93,9 +99,14 @@ function handleClick() {
 
 
             <footer className='sideFooter'>
+                {!show ?        
                 <section className="footerSection">
+                    <a href=""><img src={twitter} className='footerImg' alt="" /></a>
+                    <a href=""><img src={instagram} className='footerImg' alt="" /></a>
+                    <a href=""><img src={facebook} className='footerImg' alt="" /></a>
+                    <a href=""><img src={youtube} className='footerImg' alt="" /></a>
+                </section> :null}
 
-                </section>
             </footer>
     </div>
   )

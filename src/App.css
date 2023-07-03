@@ -25,14 +25,10 @@ body {
 }
 
 .artic {
-    height: 5000px;
+    height: 2000px;
 }
 
-a:hover { 
-    cursor: pointer;
-    text-decoration: underline #b868b4;
-     
-}
+
 
 a {
     text-decoration: none;

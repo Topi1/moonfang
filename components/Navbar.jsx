@@ -19,9 +19,9 @@ export default function Navbar() {
                         
                             <a href="">NEWS</a>
                             <a href="">DIABLO II</a>
-                            <a href="">DIABLO III</a>
                             <a href="">DIABLO IV</a>
                             <a href="">ELDEN RING</a>
+                            <a href="">BALDUR'S GATE III</a>
                             <a href="">FORUMS<img src={forumIcon} alt="" className='forumicon'/> </a>
                         
                         
