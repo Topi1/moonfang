@@ -59,7 +59,11 @@ export default function Navbar() {
                     
 
                 </section>
-                <section className="smallnavsec"></section>
+                <section className="signInSec">
+                
+                    <a href="">SIGN IN</a>
+                    <a href="">SIGN UP</a>
+                </section>
             </nav>
     </>
   )

@@ -58,7 +58,7 @@ function handleClick() {
 
             
             <section className = "sidebarsection">
-                <a href="" className='sidelink' 
+                <a className='sidelink' 
                    onMouseEnter={() => setShowHover1(true)}
                    onMouseLeave={() => setShowHover1(false)}> 
                     <section className="iconsection"><img src={login} alt="" className='sidebaricon'/></section> 
@@ -73,7 +73,7 @@ function handleClick() {
                     </div>)}
 
                 </a>
-                <a href="" className='sidelink' 
+                <a className='sidelink' 
                    onMouseEnter={() => setShowHover2(true)}
                    onMouseLeave={() => setShowHover2(false)}> 
                     <section className="iconsection"><img src={games} alt="" className='sidebaricon'/></section> 

@@ -103,6 +103,7 @@
 }
 
 .sidelink {
+    cursor: pointer;
     transition: 0.2s;
 }
 
@@ -125,7 +126,7 @@
 
 .sideBarCloseBtn {
     
-    width: 10%;
+    width: 13%;
     display: flex;
     align-self: flex-end;
     justify-content: center;
@@ -167,7 +168,7 @@
 
 
 .sidelogo {
-    padding-top: 2em;
+    padding-top: 1em;
     width: 100%;
     height: auto;
     

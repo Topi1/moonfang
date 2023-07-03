@@ -44,6 +44,30 @@
     flex-shrink: 2;
 }
 
+.signInSec {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-shrink: 2;
+    padding-right: 1em;
+}
+
+.signInSec a{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#b868b4;
+    transition: 0.3s;
+}
+
+.signInSec a:hover{
+    background-color: rgba(5, 0, 0, 0.5);
+}
+
 .navsection {
     display: flex;
     height: 100%;
