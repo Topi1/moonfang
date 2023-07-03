@@ -2,7 +2,13 @@ import React from 'react'
 import "./Navbar.css"
 import logo from "../pictures/FangLogo.png"
 import logo2 from "../pictures/MoonFang.png"
+
 import forumIcon from "../pictures/ForumIcon.png"
+
+import twitter from "../pictures/twitterIcon.png"
+import instagram from "../pictures/igIcon.png"
+import facebook from "../pictures/fbIcon.png"
+import youtube from "../pictures/ytIcon.png"
 
 
 export default function Navbar() {
@@ -27,7 +33,12 @@ export default function Navbar() {
                         
                     </section>
                     <section className="smallnavsec">
-                      
+                      <section className="navSocials">
+                        <a href=""><img src={twitter} className='navImg' alt="" /></a>
+                        <a href=""><img src={instagram} className='navImg' alt="" /></a>
+                        <a href=""><img src={facebook} className='navImg' alt="" /></a>
+                        <a href=""><img src={youtube} className='navImg' alt="" /></a>
+                      </section>
                     </section>
                     
         </nav>

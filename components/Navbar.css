@@ -91,6 +91,47 @@
     padding-left: 1em;
 }
 
+
+/* Socials links */
+
+.navSocials {
+    align-self: flex-start;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 1em;
+    flex-wrap: wrap;
+    
+}
+
+.navSocials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    width: 47px;
+    transition: 0.2s;
+    border-radius: 9px;
+}
+
+.navSocials a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navImg {
+    height: 60%;
+    width: auto;
+    opacity: 0.7;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 1300px) {
     .logo1 {
       display: none;

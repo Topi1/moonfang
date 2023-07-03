@@ -50,7 +50,10 @@ function handleClick() {
                     <section className='sideBarCloseBtn' onClick={() => handleClick()}>X</section>
                 )}
                 
+                {!show ?   
                 <img src={logo2} alt="" className='logo sidelogo'/>
+                :null}
+
             </section>
 
             
