@@ -16,8 +16,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    flex-shrink: 0;
     
+    box-shadow: 0px 3px 10px black;
     
 
 }
@@ -38,7 +38,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    
+    box-shadow: 0px 3px 10px black;
     
     
 
@@ -190,6 +190,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.2s;
+    box-shadow: 0px 3px 10px black;
 }
 
 .submenu1 a {
@@ -214,6 +215,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.2s;
+    box-shadow: 0px 3px 10px black;
 }
 
 .submenu2 a {
