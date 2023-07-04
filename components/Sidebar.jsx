@@ -82,10 +82,10 @@ function handleClick() {
                     {showHover2 && (
                     <div className="submenu2">
 
-                        <a href="">DIABLO II</a>
-                        <a href="">DIABLO IV</a>
-                        <a href="">ELDEN RING</a>
                         <a href="">BALDUR'S GATE III</a>
+                        <a href="">DIABLO IV</a>
+                        <a href="">DIABLO II</a>
+                        <a href="">ELDEN RING</a>
                     
                     </div>)}
 

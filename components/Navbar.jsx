@@ -24,10 +24,10 @@ export default function Navbar() {
                     <section className="navsection">
                         
                             <a href="">NEWS</a>
-                            <a href="">DIABLO II</a>
-                            <a href="">DIABLO IV</a>
-                            <a href="">ELDEN RING</a>
                             <a href="">BALDUR'S GATE III</a>
+                            <a href="">DIABLO IV</a>
+                            <a href="">DIABLO II</a>
+                            <a href="">ELDEN RING</a>
                             <a href="">FORUMS
                             {/*<img src={forumIcon} alt="" className='forumicon'/> */}
                             </a>
@@ -60,9 +60,11 @@ export default function Navbar() {
 
                 </section>
                 <section className="signInSec">
-                
+                  {/*
                     <a href="">SIGN IN</a>
                     <a href="">SIGN UP</a>
+
+                  */}
                 </section>
             </nav>
     </>
