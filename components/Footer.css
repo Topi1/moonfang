@@ -12,8 +12,10 @@
     font-family: 'Agdasima', sans-serif;
     background-color: rgb(65, 3, 42);
     border-top: 2px solid rgb(52, 2, 34);
+    
     margin-top: auto;
     
+    bottom: 0;
 }
 
 .footerSec {

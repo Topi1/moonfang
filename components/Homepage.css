@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
+
+.maincon {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Agdasima', sans-serif;
+    color: #b868b4;
+    gap: 20px;
+    
+    
+}
+
+.con {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.con a {
+    color:#b868b4;
+    transition: 0.3s;
+}
+
+.con a:hover {
+    text-decoration: underline;
+}
+
+.con h1 {
+    font-size: 35px;
+}
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(39, 1, 26);
+    box-shadow: 0px 3px 10px black;
+}
+
+.news section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: space-between; 
+}
+
+.news section h1 {
+    color:white;
+}
+
+.articlepic {
+    height: 100%;
+    width: auto;
+    
+}
+

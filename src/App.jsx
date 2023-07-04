@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Homepage from '../components/Homepage'
 import "./App.css"
 
 
@@ -13,7 +14,7 @@ function App() {
     <Sidebar/>
       <div className="maindisplay">
         <Navbar/>
-        <article className="artic"></article>
+        <Homepage/>
         <Footer/>
       </div>
     </div>
