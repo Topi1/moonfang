@@ -51,7 +51,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-shrink: 2;
-    padding-right: 1em;
+    
 }
 
 .signInSec a{
@@ -128,7 +128,7 @@
     align-self: center;
     align-items: center;
     justify-content: space-evenly;
-    padding-right: 1em;
+    
     flex-wrap: wrap;
     
 }
@@ -151,6 +151,8 @@
     height: 60%;
     width: auto;
     opacity: 0.7;
+    background-color: #b868b4;
+    border-radius: 8px;
 }
 
 
