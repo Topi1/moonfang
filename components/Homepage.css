@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
 
-.maincon {
+
+.homemain {
+    height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Main content in the middle */
+
+.maincon {
+    width: 60%;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -12,10 +22,11 @@
     color: #b868b4;
     gap: 20px;
     
+    
 }
 
 .con {
-    width: 60%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     
@@ -48,7 +59,7 @@
     height: 30vh;
     width: 100%;
     background-color: rgb(39, 1, 26);
-    box-shadow: 0px 3px 10px black;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
     cursor: pointer;
 }
 
@@ -92,6 +103,21 @@
 .articlepic {
     height: 100%;
     width: 100%;
-    z-index: 1;
+    object-fit: cover;
 }
 
+
+/*Side content */
+
+.homeside1 {
+    width: 20%;
+    height: 100%;
+    
+}
+
+.homeside2 {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(65, 3, 42);
+    box-shadow: 0px 3px 10px black;
+}

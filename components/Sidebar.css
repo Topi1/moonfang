@@ -116,7 +116,7 @@
 }
 
 .sidelink:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .sidebaricon {
@@ -142,7 +142,7 @@
 }
 
 .sideBarCloseBtn:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .sideBarOpenBtn {
@@ -159,7 +159,7 @@
 }
 
 .sideBarOpenBtn:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .menuIcon {
@@ -186,7 +186,7 @@
     height: 100%;
     left: 100%;
     top: 0;
-    background-color: rgb(52, 2, 34);
+    background-color: rgb(39, 1, 26);
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -202,7 +202,7 @@
 }
 
 .submenu1 a:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .submenu2 {
@@ -211,7 +211,7 @@
     height: 100%;
     left: 100%;
     top: 0;
-    background-color: rgb(52, 2, 34);
+    background-color: rgb(39, 1, 26);
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -227,7 +227,7 @@
 }
 
 .submenu2 a:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 
@@ -265,7 +265,7 @@
 }
 
 .footerSection a:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .footerImg {
