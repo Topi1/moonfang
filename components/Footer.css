@@ -5,7 +5,7 @@
     color: white;
     height: 250px;
     width: 100%;
-    min-width: 800px;
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -59,3 +59,19 @@
     width: auto;
     
 }
+
+@media only screen and (max-width: 1000px) {
+    
+    .footerLogo1 {
+        height: 70%;
+        width: auto;
+        padding-top: 2em;
+    }
+    
+    .footerLogo2 {
+        padding-top: 2em;
+        height: 70%;
+        width: auto;
+        
+    }
+  }
