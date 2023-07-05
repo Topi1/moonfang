@@ -8,20 +8,26 @@ export default function Homepage() {
   
     return (
         <div className='maincon'>
-            <section className='con'>
-                <section className="headers">
+
+        <section className='con'>
+            <section className="headers">
                     <h1>GAMING NEWS</h1>
                     <a href=""><h2>More News</h2></a>
-                </section>
-            <section className="news">
+            </section>
+            <a className="news">
+                
                 <section>
                     <img src={mindflayer} alt="" className='articlepic'/>
                 </section>
-                <section>
+                <section className ="textsection">
+                <div className='textdivide1'>
                     <h2>BALDUR'S GATE III</h2>
+                </div>
+                <div className='textdivide2'>
                     <h1>Baldur’s Gate III will launch four weeks early on PC, delayed on PS5</h1>
-                </section>
-            </section>
+                </div>
+                </section>   
+            </a>
         </section>
         
         <section className='con'>
