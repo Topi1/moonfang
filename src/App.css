@@ -1,10 +1,9 @@
-html, body {width: auto!important; overflow-x: hidden!important} 
+html, body {height: 100%; width: auto!important; overflow-x: hidden!important} 
 
 body {
     background-color: rgb(81, 9, 58);
     margin: 0;
     padding: 0;
-    
 }
 
 .maincontainer {
