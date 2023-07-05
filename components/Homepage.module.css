@@ -130,8 +130,12 @@
 
 
 @media only screen and (max-width: 1000px) {
+
+    .textdivide1 h2{
+        font-size: 1.1em;
+      }
     .textdivide2 h1{
-      font-size: 1.8em;
+        font-size: 1.8em;
     }
 
     .homemain {

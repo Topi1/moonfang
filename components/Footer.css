@@ -75,3 +75,19 @@
         
     }
   }
+
+  @media only screen and (max-width: 700px) {
+    
+    .footerLogo1 {
+        height: 45%;
+        width: auto;
+        padding-top: 2em;
+    }
+    
+    .footerLogo2 {
+        padding-top: 2em;
+        height: 45%;
+        width: auto;
+        
+    }
+  }
