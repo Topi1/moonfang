@@ -157,8 +157,50 @@
     border-radius: 8px;
 }
 
+/*Mobile Nav */
 
+.mobilenav {
+    display: none;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(39, 1, 26);
+    box-shadow: 0px 3px 10px black;
+    position: sticky;
+    top: 0px;
+    
 
+}
+
+.mobileNavSec1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.mobileNavSec2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.mobileMenuIcon {
+    height: 70%;
+    width: 20%;
+    padding-right: 1em;
+}
+
+.mobileLogo1 {
+    height: 90%;
+    padding-left: 1em;
+}
+.mobileLogo2 {
+    height: 90%;
+    
+}
+
+/*Media queries */
 
 
 
@@ -174,5 +216,8 @@
   @media only screen and (max-width: 1000px) {
     .navbar {
         display: none;
+    }
+    .mobilenav {
+        display: flex;
     }
   }

@@ -1,7 +1,8 @@
 import React from 'react'
 import "./Navbar.css"
 import logo from "../pictures/FangLogo.png"
-import logo2 from "../pictures/MoonFang.png"
+import logo2 from "../pictures/FangText.png"
+import menu from "../pictures/Hamburger.png"
 
 import forumIcon from "../pictures/ForumIcon.png"
 
@@ -66,7 +67,17 @@ export default function Navbar() {
 
                   */}
                 </section>
-            </nav>
+          </nav>
+
+          <nav className="mobilenav">
+            <section className='mobileNavSec1'>
+              <img src={logo} alt="" className='mobileLogo1'/>
+              <img src={logo2} alt="" className='mobileLogo2'/>
+            </section>
+            <section className='mobileNavSec2'>
+              <img src={menu} alt="" className='mobileMenuIcon'/>
+            </section>
+          </nav>
     </>
   )
 }
