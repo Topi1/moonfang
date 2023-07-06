@@ -11,6 +11,10 @@ import instagram from "../pictures/igIcon.png"
 import facebook from "../pictures/fbIcon.png"
 import youtube from "../pictures/ytIcon.png"
 
+import games from "../pictures/GamesIcon.png"
+import news from "../pictures/newsIcon.png"
+import contact from "../pictures/contactIcon.png"
+
 
 export default function Navbar() {
 
@@ -92,12 +96,16 @@ export default function Navbar() {
 
           {!show ?       
           <div className='mobileMenu'>
+            <section className='mobileMenuSec0'></section> 
             <section className='mobileMenuSec1'>
               <a>Sign In</a>
               <a>Sign Up</a>
             </section>
             <section className='mobileMenuSec2'>
-
+              <a><img src={news} className='mobileIcon' /> <p>Gaming News</p></a>
+              <a><img src={games} className='mobileIcon' /> <p>Game Guides</p></a>
+              <a><img src={contact} className='mobileIcon' /> <p>Contact</p></a>
+              
             </section>     
           </div>
           :null}

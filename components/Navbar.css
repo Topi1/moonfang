@@ -196,12 +196,13 @@
     cursor: pointer;
 }
 
+
 .mobileLogo1 {
     height: 90%;
     padding-left: 1em;
 }
 .mobileLogo2 {
-    height: 90%;
+    height: 80%;
     
 }
 
@@ -210,16 +211,24 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 80px;
+    top: 0;
     bottom: 0;
     color: #cf7ecb;
     background-color: rgb(39, 1, 26);
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 100vh;
     width: 100vw;
     font-family: 'Agdasima', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
+    
+}
+
+.mobileMenuSec0 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    
     
 }
 
@@ -230,11 +239,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     
+    
 }
 
 .mobileMenuSec1 a{
     padding-left: 2em;
-    
+    cursor: pointer;
 }
 
 .mobileMenuSec1:after {
@@ -248,9 +258,41 @@
 }
 
 .mobileMenuSec2 {
-    height: 80%;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 30px;
+    
+}
+
+.mobileMenuSec2 p{
+    padding-left: 1em;
+    
+}
+
+.mobileMenuSec2 a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding-left: 2em;
+    height: 15%;
     width: 100%;
     
+}
+
+.mobileMenuSec2 a:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    
+}
+
+
+.mobileIcon {
+    height: 70%;
 }
 
 /*Media queries */
