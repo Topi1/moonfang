@@ -18,16 +18,16 @@ export default function Homepage() {
                 </section>
                 <a className={css.news}>
                     
-                    <section>
+                    <section className={css.imgsection}>
                         <img src={mindflayer} alt="" className={css.articlepic}/>
                     </section>
                     <section className ={css.textsection}>
-                    <div className={css.textdivide1}>
-                        <h2>BALDUR'S GATE III</h2>
-                    </div>
-                    <div className={css.textdivide2}>
-                        <h1>Baldur’s Gate III will launch four weeks early on PC, delayed on PS5</h1>
-                    </div>
+                        <div className={css.textdivide1}>
+                            <h2>BALDUR'S GATE III</h2>
+                        </div>
+                        <div className={css.textdivide2}>
+                            <h1>Baldur’s Gate III will launch four weeks early on PC, delayed on PS5</h1>
+                        </div>
                     </section>   
                 </a>
             </section>

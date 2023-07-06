@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: space-evenly;
     font-family: 'Agdasima', sans-serif;
-    color: #b868b4;
+    color: #cf7ecb;
     gap: 20px;
     
     
@@ -45,7 +45,7 @@
 }
 
 .headers a {
-    color:#b868b4;
+    color: #cf7ecb;
     transition: 0.3s;
 }
 
@@ -67,10 +67,19 @@
     
 }
 
-.news section {
+.imgsection {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 55%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s; 
+}
+.textsection {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -89,7 +98,7 @@
     
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid #b868b4;
+    border-bottom: 2px solid #cf7ecb;
     
 }
 
@@ -131,13 +140,7 @@
 
 @media only screen and (max-width: 1000px) {
 
-    .textdivide1 h2{
-        font-size: 1.1em;
-      }
-    .textdivide2 h1{
-        font-size: 1.7em;
-    }
-
+    
     .homemain {
         align-items: center;
         justify-content: center;
@@ -153,7 +156,50 @@
     .homeside2 {
         display: none;
     }
-  }
+
+  .news {
+    
+    flex-direction: column;
+    height: 300px;
+    min-height: 300px;
+    width: 100%;
+    
+    }
+    .imgsection {
+        
+        height: 60%;
+        width: 100%;
+    
+    }
+    .textsection {
+        
+        height: 40%;
+        width: 100%;
+        
+    }
+
+    .textdivide1 {
+    
+        height: 30%;
+        width: 90%;
+        
+    }
+    
+    .textdivide2 {
+       
+        height: 70%;
+        width: 90%;
+    
+    }
+
+    .textdivide1 h2{
+        font-size: 1.1em;
+      }
+    .textdivide2 h1{
+        font-size: 1.7em;
+    }
+
+}
 
   @media only screen and (max-width: 1200px) {
     

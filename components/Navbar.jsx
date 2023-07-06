@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Navbar.css"
 import logo from "../pictures/FangLogo.png"
 import logo2 from "../pictures/FangText.png"
@@ -13,6 +13,16 @@ import youtube from "../pictures/ytIcon.png"
 
 
 export default function Navbar() {
+
+  const [show, setShow] = useState(true);
+
+  function handleClick() {
+
+    setShow(!show);
+   
+}
+
+
   return (
     <>
         <nav className="navbar n1">
@@ -69,15 +79,28 @@ export default function Navbar() {
                 </section>
           </nav>
 
+                 
           <nav className="mobilenav">
             <section className='mobileNavSec1'>
               <img src={logo} alt="" className='mobileLogo1'/>
               <img src={logo2} alt="" className='mobileLogo2'/>
             </section>
             <section className='mobileNavSec2'>
-              <img src={menu} alt="" className='mobileMenuIcon'/>
+              <img src={menu} onClick={() => handleClick()} className='mobileMenuIcon'/>
             </section>
           </nav>
+
+          {!show ?       
+          <div className='mobileMenu'>
+            <section className='mobileMenuSec1'>
+              <a>Sign In</a>
+              <a>Sign Up</a>
+            </section>
+            <section className='mobileMenuSec2'>
+
+            </section>     
+          </div>
+          :null}
     </>
   )
 }
