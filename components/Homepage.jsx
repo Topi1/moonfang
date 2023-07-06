@@ -14,7 +14,7 @@ export default function Homepage() {
             <section className={css.con}>
                 <section className={css.headers}>
                         <h1>GAMING NEWS</h1>
-                        <a href=""><h2>More News &#8680;</h2></a>
+                        <a ><h2>More News &#8680;</h2></a>
                 </section>
                 <a className={css.news}>
                     
@@ -33,7 +33,7 @@ export default function Homepage() {
             </section>
             
             <section className={css.con}>
-                <h1>GAMES</h1>
+                <h1>GAME GUIDES</h1>
                 <section className={css.news}>
                 </section>
             </section>
@@ -42,7 +42,18 @@ export default function Homepage() {
                 <section className={css.headers}>
                     <h1>NEWSLETTER</h1>
                 </section>
-                <section className={css.news}>
+                <section className={css.newsLetterMain}>
+                    <section className={css.newsLetter}>
+                        <div className={css.newsLetterSection1}>
+                            <h1>Subscribe to newsletter and don't miss out on GAMING NEWS or NEW BUILD GUIDES.</h1>
+                        </div>
+                        <div className={css.newsLetterSection2}>
+                            <form>
+                                <input type="email" name="" id="" placeholder='Enter your email here'/>
+                            </form>
+                            <input type="submit" value="Submit" />
+                        </div>
+                    </section>
                 </section>
             </section>
 

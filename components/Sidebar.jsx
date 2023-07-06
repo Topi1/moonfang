@@ -67,8 +67,8 @@ function handleClick() {
                     {showHover1 && (
                     <div className="submenu1">
 
-                        <a href="">SIGN IN</a>
-                        <a href="">SIGN UP</a>
+                        <a >SIGN IN</a>
+                        <a >SIGN UP</a>
                         
                     </div>)}
 
@@ -82,19 +82,19 @@ function handleClick() {
                     {showHover2 && (
                     <div className="submenu2">
 
-                        <a href="">BALDUR'S GATE III</a>
-                        <a href="">DIABLO IV</a>
-                        <a href="">DIABLO II</a>
-                        <a href="">ELDEN RING</a>
+                        <a >BALDUR'S GATE III</a>
+                        <a >DIABLO IV</a>
+                        <a >DIABLO II</a>
+                        <a >ELDEN RING</a>
                     
                     </div>)}
 
                 </a>
-                <a href="" className='sidelink'> 
+                <a  className='sidelink'> 
                     <section className="iconsection"><img src={news} alt="" className='sidebaricon'/></section> 
                     {!show ? <p>NEWS</p> :null}
                 </a>
-                <a href="" className='sidelink'> 
+                <a  className='sidelink'> 
                     <section className="iconsection"><img src={contact} alt="" className='sidebaricon'/></section> 
                     {!show ? <p>CONTACT</p> :null}
                 </a>
@@ -104,10 +104,10 @@ function handleClick() {
             <footer className='sideFooter'>
                 {!show ?        
                 <section className="footerSection">
-                    <a href=""><img src={twitter} className='footerImg' alt="" /></a>
-                    <a href=""><img src={instagram} className='footerImg' alt="" /></a>
-                    <a href=""><img src={facebook} className='footerImg' alt="" /></a>
-                    <a href=""><img src={youtube} className='footerImg' alt="" /></a>
+                    <a ><img src={twitter} className='footerImg' alt="" /></a>
+                    <a ><img src={instagram} className='footerImg' alt="" /></a>
+                    <a ><img src={facebook} className='footerImg' alt="" /></a>
+                    <a ><img src={youtube} className='footerImg' alt="" /></a>
                 </section> :null}
 
             </footer>

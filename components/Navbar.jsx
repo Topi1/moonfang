@@ -38,12 +38,12 @@ export default function Navbar() {
                     
                     <section className="navsection">
                         
-                            <a href="">NEWS</a>
-                            <a href="">BALDUR'S GATE III</a>
-                            <a href="">DIABLO IV</a>
-                            <a href="">DIABLO II</a>
-                            <a href="">ELDEN RING</a>
-                            <a href="">FORUMS
+                            <a >NEWS</a>
+                            <a >BALDUR'S GATE III</a>
+                            <a >DIABLO IV</a>
+                            <a >DIABLO II</a>
+                            <a >ELDEN RING</a>
+                            <a >FORUMS
                             {/*<img src={forumIcon} alt="" className='forumicon'/> */}
                             </a>
                         
@@ -51,10 +51,10 @@ export default function Navbar() {
                     </section>
                     <section className="smallnavsec">
                       <section className="navSocials">
-                        <a href=""><img src={twitter} className='navImg' alt="" /></a>
-                        <a href=""><img src={instagram} className='navImg' alt="" /></a>
-                        <a href=""><img src={facebook} className='navImg' alt="" /></a>
-                        <a href=""><img src={youtube} className='navImg' alt="" /></a>
+                        <a ><img src={twitter} className='navImg' alt="" /></a>
+                        <a ><img src={instagram} className='navImg' alt="" /></a>
+                        <a ><img src={facebook} className='navImg' alt="" /></a>
+                        <a ><img src={youtube} className='navImg' alt="" /></a>
                       </section>
                     </section>
                     
@@ -67,10 +67,10 @@ export default function Navbar() {
                 
                 <section className="navsection">
                     
-                    <a href="">HOME</a>
-                    <a href="">BEGINNER GUIDES</a>
-                    <a href="">BUILD GUIDES</a>
-                    <a href="">ITEMS</a>
+                    <a >HOME</a>
+                    <a >BEGINNER GUIDES</a>
+                    <a >BUILD GUIDES</a>
+                    <a >ITEMS</a>
                     
 
                 </section>
