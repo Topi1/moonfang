@@ -84,7 +84,7 @@ export default function Navbar() {
           </nav>
 
                  
-          <nav className="mobilenav">
+          <nav className="mobilenav" style={{position: show ? "sticky" : "fixed"}}>
             <section className='mobileNavSec1'>
               <img src={logo} alt="" className='mobileLogo1'/>
               <img src={logo2} alt="" className='mobileLogo2'/>

@@ -26,6 +26,7 @@
     top: 0px;
     font-size: 18px;
     box-shadow: 0px 3px 10px black;
+    color: #cf7ecb;
 }
 
 .logonavsec {
@@ -80,23 +81,33 @@
     flex-shrink: 0;
 }
 
-.navsection a {
+.n2 a {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     height: 80%;
     transition: 0.3s;
-    
-    
 }
 
-.navsection a:hover { 
+.n1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cf7ecb;
+    height: 80%;
+    transition: 0.3s;
+}
+
+.n2 a:hover { 
     cursor: pointer;
     text-decoration: underline #cf7ecb;
-    color: #cf7ecb;
-    
-     
+    color: #cf7ecb;  
+}
+.n1 a:hover { 
+    cursor: pointer;
+    text-decoration: underline white;
+    color: white;  
 }
 
 
@@ -168,7 +179,7 @@
     width: 100%;
     background-color: rgb(39, 1, 26);
     box-shadow: 0px 3px 10px black;
-    position: sticky;
+    
     top: 0px;
     z-index: 2;
     
