@@ -34,7 +34,10 @@ export default function Homepage() {
             </section>
             
             <section className={css.con}>
-                <h1>GAME GUIDES</h1>
+                <section className={css.headers}>
+                        <h1>GAME GUIDES</h1>
+                        <a ><h2>All Games &#8680;</h2></a>
+                </section>
                 <a className={css.news}>
                     <section className={css.imgsection}>
                         <img src={inarius} alt="" className={css.articlepic}/>
@@ -44,7 +47,7 @@ export default function Homepage() {
                             <h2>DIABLO IV</h2>
                         </div>
                         <div className={css.textdivide2}>
-                            <h1>Defeat the forces of Hell with our character builds</h1>
+                            <h1>Defeat the forces of hell with our character builds</h1>
                         </div>
                     </section>
                      
