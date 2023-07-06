@@ -11,6 +11,7 @@ import instagram from "../pictures/igIcon.png"
 import facebook from "../pictures/fbIcon.png"
 import youtube from "../pictures/ytIcon.png"
 
+import login from "../pictures/logIn.png"
 import games from "../pictures/GamesIcon.png"
 import news from "../pictures/newsIcon.png"
 import contact from "../pictures/contactIcon.png"
@@ -98,10 +99,13 @@ export default function Navbar() {
           <div className='mobileMenu'>
             <section className='mobileMenuSec0'></section> 
             <section className='mobileMenuSec1'>
-              <a>Sign In</a>
-              <a>Sign Up</a>
+                <form>
+                  <input type="text"/> 
+                  <button type="submit" value="Search">Search</button>
+                </form>
             </section>
             <section className='mobileMenuSec2'>
+              <a><img src={login} className='mobileIcon' /> <p>Sign In / Sign Up</p></a>
               <a><img src={news} className='mobileIcon' /> <p>Gaming News</p></a>
               <a><img src={games} className='mobileIcon' /> <p>Game Guides</p></a>
               <a><img src={contact} className='mobileIcon' /> <p>Contact</p></a>
