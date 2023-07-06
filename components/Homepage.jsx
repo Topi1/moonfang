@@ -2,6 +2,7 @@ import React from 'react'
 import css from "./Homepage.module.css"
 
 import mindflayer from "../pictures2/mindflayer.jpg"
+import inarius from "../pictures2/inarius.jpg"
 
 export default function Homepage() {
   
@@ -34,8 +35,20 @@ export default function Homepage() {
             
             <section className={css.con}>
                 <h1>GAME GUIDES</h1>
-                <section className={css.news}>
-                </section>
+                <a className={css.news}>
+                    <section className={css.imgsection}>
+                        <img src={inarius} alt="" className={css.articlepic}/>
+                    </section>  
+                    <section className ={css.textsection}>
+                        <div className={css.textdivide1}>
+                            <h2>DIABLO IV</h2>
+                        </div>
+                        <div className={css.textdivide2}>
+                            <h1>Defeat the forces of Hell with our character builds</h1>
+                        </div>
+                    </section>
+                     
+                </a>
             </section>
 
             <section className={css.con}>
@@ -57,7 +70,7 @@ export default function Homepage() {
                 </section>
             </section>
 
-            <div></div>
+            <div style={{"height" : "70px"}}></div>
             
             
         </div>
