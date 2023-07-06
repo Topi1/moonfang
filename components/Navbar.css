@@ -238,7 +238,7 @@
 }
 
 .mobileMenuSec0 {
-    height: 10%;
+    height: 12%;
     width: 100%;
     display: flex;
     
@@ -246,7 +246,7 @@
 }
 
 .mobileMenuSec1 {
-    height: 15%;
+    height: 13%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -281,11 +281,11 @@
 input[type=text] {
     height: 100%;
     width: 70%;
-    border: 0;
     font-family: 'Agdasima', sans-serif;
     font-size: 19px;
     color: rgb(39, 1, 26);
     background-color: #cf7ecb;
+    border: none;
     
 }
 input[type=text]:focus {
@@ -298,6 +298,7 @@ input[type=text]::placeholder {
  }
 
  button[type=submit] {
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -336,7 +337,7 @@ button[type=submit]:hover {
     align-items: center;
     font-size: 25px;
     padding-left: 3.5em;
-    height: 18%;
+    height: 17%;
     width: 100%;
     
 }

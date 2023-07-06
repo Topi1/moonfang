@@ -101,7 +101,7 @@ export default function Navbar() {
             <section className='mobileMenuSec1'>
                 <form>
                   <input type="text"/> 
-                  <button type="submit">Search</button>
+                  <button type="submit"><p>Search</p></button>
                 </form>
             </section>
             <section className='mobileMenuSec2'>
