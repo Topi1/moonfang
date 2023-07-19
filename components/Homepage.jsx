@@ -17,20 +17,54 @@ export default function Homepage() {
                         <h1>GAMING NEWS</h1>
                         <a ><h2>More News &#8680;</h2></a>
                 </section>
-                <a className={css.news}>
-                    
-                    <section className={css.imgsection}>
-                        <img src={mindflayer} alt="" className={css.articlepic}/>
-                    </section>
-                    <section className ={css.textsection}>
-                        <div className={css.textdivide1}>
-                            <h2>BALDUR'S GATE III</h2>
-                        </div>
-                        <div className={css.textdivide2}>
-                            <h1>Baldur’s Gate III will launch four weeks early on PC, delayed on PS5</h1>
-                        </div>
-                    </section>   
-                </a>
+                <div className={css.scroller}>
+                    <a className={css.news}>
+                        
+                        <section className={css.imgsection}>
+                            <img src={mindflayer} alt="" className={css.articlepic}/>
+                        </section>
+                        <section className ={css.textsection}>
+                            <div className={css.textdivide1}>
+                                <h2>BALDUR'S GATE III</h2>
+                            </div>
+                            <div className={css.textdivide2}>
+                                <h1>Baldur’s Gate III will launch four weeks early on PC, delayed on PS5</h1>
+                            </div>
+                        </section>   
+                    </a>
+                    <a className={css.news}>
+                        
+                        <section className={css.imgsection}>
+                            <img src={mindflayer} alt="" className={css.articlepic}/>
+                        </section>
+                        <section className ={css.textsection}>
+                            <div className={css.textdivide1}>
+                                <h2>ELDEN RING</h2>
+                            </div>
+                            <div className={css.textdivide2}>
+                                <h1>Our predictions for the Elden Ring DLC.</h1>
+                            </div>
+                        </section>   
+                    </a>
+                    <a className={css.news}>
+                        
+                        <section className={css.imgsection}>
+                            <img src={mindflayer} alt="" className={css.articlepic}/>
+                        </section>
+                        <section className ={css.textsection}>
+                            <div className={css.textdivide1}>
+                                <h2>DIABLO IV</h2>
+                            </div>
+                            <div className={css.textdivide2}>
+                                <h1>Season 1: Season Of The Malignant begins 20.7</h1>
+                            </div>
+                        </section>   
+                    </a>
+
+                    <button className={css.btnLeft}></button>
+                    <button className={css.btnRight}></button>
+
+                </div>
             </section>
             
             <section className={css.con}>
@@ -38,20 +72,22 @@ export default function Homepage() {
                         <h1>GAME GUIDES</h1>
                         <a ><h2>All Games &#8680;</h2></a>
                 </section>
-                <a className={css.news}>
-                    <section className={css.imgsection}>
-                        <img src={inarius} alt="" className={css.articlepic}/>
-                    </section>  
-                    <section className ={css.textsection}>
-                        <div className={css.textdivide1}>
-                            <h2>DIABLO IV</h2>
-                        </div>
-                        <div className={css.textdivide2}>
-                            <h1>Defeat the forces of hell with our character builds</h1>
-                        </div>
-                    </section>
-                     
-                </a>
+                
+                    <a className={css.news}>
+                        <section className={css.imgsection}>
+                            <img src={inarius} alt="" className={css.articlepic}/>
+                        </section>  
+                        <section className ={css.textsection}>
+                            <div className={css.textdivide1}>
+                                <h2>DIABLO IV</h2>
+                            </div>
+                            <div className={css.textdivide2}>
+                                <h1>Defeat the forces of hell with our character builds</h1>
+                            </div>
+                        </section>
+                    </a>
+                
+                
             </section>
 
             <section className={css.con}>
