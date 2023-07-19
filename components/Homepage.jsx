@@ -2,6 +2,8 @@ import React, {useRef} from 'react'
 import css from "./Homepage.module.css"
 
 import mindflayer from "../pictures2/mindflayer.jpg"
+import eldenNews from "../pictures2/eldenNews.jpg"
+import diabloNews from "../pictures2/diabloNews.jpg"
 
 import inarius from "../pictures2/inarius.jpg"
 
@@ -52,7 +54,7 @@ export default function Homepage() {
                     <a className={css.news}>
                         
                         <section className={css.imgsection}>
-                            <img src={mindflayer} alt="" className={css.articlepic}/>
+                            <img src={eldenNews} alt="" className={css.articlepic}/>
                         </section>
                         <section className ={css.textsection}>
                             <div className={css.textdivide1}>
@@ -66,7 +68,7 @@ export default function Homepage() {
                     <a className={css.news}>
                         
                         <section className={css.imgsection}>
-                            <img src={mindflayer} alt="" className={css.articlepic}/>
+                            <img src={diabloNews} alt="" className={css.articlepic}/>
                         </section>
                         <section className ={css.textsection}>
                             <div className={css.textdivide1}>
