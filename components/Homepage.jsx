@@ -11,12 +11,15 @@ export default function Homepage() {
 
     const scrollLeft = () => {
         console.log("scroll left")
-        scrollElement.current.scrollLeft -= 30
+        
+        scrollElement.current.scrollLeft -= 1000
+        console.log(scrollElement.current.scrollLeft)
 
     }
     const scrollRight = () => {
         console.log("scroll right")
-        scrollElement.current.scrollRight += 30
+        scrollElement.current.scrollLeft += 1000
+        console.log(scrollElement.current.scrollLeft)
 
     }
   

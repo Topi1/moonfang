@@ -143,11 +143,11 @@
 
 .scroller::-webkit-scrollbar {
     display: none;
-}
+} 
 
 .scroller > * {
     scroll-snap-align: start;
-}
+} 
 
 .scrollBtn {
     border: none;
