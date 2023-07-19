@@ -125,7 +125,7 @@
     display: none;
     border: none;
     border-radius: 7px;
-    z-index: 2;
+    z-index: 0;
     position: absolute;
     height: 40px;
     width: 100px;
