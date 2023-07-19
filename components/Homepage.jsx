@@ -1,4 +1,5 @@
 import React, {useRef} from 'react'
+
 import css from "./Homepage.module.css"
 
 import mindflayer from "../pictures2/mindflayer.jpg"
@@ -8,6 +9,8 @@ import diabloNews from "../pictures2/diabloNews.jpg"
 import inarius from "../pictures2/inarius.jpg"
 
 export default function Homepage() {
+
+   
 
     const scrollElement = useRef(null)
 
@@ -23,7 +26,7 @@ export default function Homepage() {
         scrollElement.current.scrollLeft += 1000
         console.log(scrollElement.current.scrollLeft)
 
-    }
+    } 
   
   
     return (
@@ -34,7 +37,7 @@ export default function Homepage() {
             <section className={css.con}>
                 <section className={css.headers}>
                         <h1>GAMING NEWS</h1>
-                        <a ><h2>More News &#8680;</h2></a>
+                        <a ><h2>All News &#8680;</h2></a>
                 </section>
                 <div className={css.scroller} ref={scrollElement}>
                     <a className={css.news}>
@@ -82,6 +85,9 @@ export default function Homepage() {
                 </div>
                 <button onClick = {scrollLeft} className={`${css.btnLeft} ${css.scrollBtn}`}>&#8249;</button>
                 <button onClick = {scrollRight} className={`${css.btnRight} ${css.scrollBtn}`}>&#8250;</button>
+
+                <div className={css.slideInfo}>Swipe &#8250;</div>
+
             </section>
             
             <section className={css.con}>

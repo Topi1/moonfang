@@ -121,6 +121,22 @@
     box-shadow: 0px 3px 10px rgb(0, 0, 0); 
 }
 
+.slideInfo {
+    display: none;
+    border: none;
+    border-radius: 7px;
+    z-index: 2;
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    right: 0;
+    bottom: -40px;
+    background-color: rgb(39, 1, 26, 0.3);
+    color:#cf7ecb;
+    align-items: center;
+    justify-content: center;
+}
+
 /*Media Scroller */
 
 .scroller {
@@ -347,6 +363,10 @@ input[type=submit]:hover {
 
     .scrollBtn {
         display: none;
+    }
+
+    .slideInfo {
+        display: flex;
     }
 
 }
