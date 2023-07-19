@@ -31,7 +31,7 @@
     align-self: center;
     display: flex;
     flex-direction: column;
-    
+    position: relative;
 }
 
 .con h1 {
@@ -57,9 +57,10 @@
 
 
 .news {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: 390px;
     min-height: 300px;
     width: 100%;
     background-color: rgb(39, 1, 26);
@@ -111,8 +112,6 @@
     align-self: center;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
-    
 }
 
 .articlepic {
@@ -124,7 +123,8 @@
 /*Media Scroller */
 
 .scroller {
-    position: relative;
+    align-self: center;
+    width: 100%;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 100%;
@@ -140,6 +140,7 @@
     scrollbar-width: none;
 }
 
+
 .scroller::-webkit-scrollbar {
     display: none;
 }
@@ -148,25 +149,34 @@
     scroll-snap-align: start;
 }
 
-.btnLeft{
-    display: none;
-    z-index: 2;
+.scrollBtn {
+    border: none;
+    border-radius: 7px;
+    z-index: 0;
     position: absolute;
-    height: 50px;
+    height: 100px;
     width: 50px;
-    left: -500;
     bottom: 0;
-    background-color: white;
+    background-color: rgb(39, 1, 26, 0.3);
+    cursor: pointer; 
+    transition: 0.3s;
+    color: #cf7ecb;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollBtn:hover{
+    background-color: rgb(39, 1, 26, 1);
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+}
+
+.btnLeft{
+    left: -45px; 
 }
 .btnRight {
-    display: none;
-    z-index: 2;
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    right: 0;
-    bottom: 0;
-    background-color: white;
+    right: -45px;
 }
 
 /*Newsletter */
@@ -311,14 +321,14 @@ input[type=submit]:hover {
 
     .textdivide1 {
     
-        height: 30%;
+        height: 40%;
         width: 90%;
         
     }
     
     .textdivide2 {
        
-        height: 70%;
+        height: 60%;
         width: 90%;
     
     }
@@ -332,6 +342,10 @@ input[type=submit]:hover {
 
     .newsLetter h1{
         font-size: 1.5em;
+    }
+
+    .scrollBtn {
+        display: none;
     }
 
 }

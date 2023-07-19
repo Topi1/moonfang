@@ -1,10 +1,24 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import css from "./Homepage.module.css"
 
 import mindflayer from "../pictures2/mindflayer.jpg"
+
 import inarius from "../pictures2/inarius.jpg"
 
 export default function Homepage() {
+
+    const scrollElement = useRef(null)
+
+    const scrollLeft = () => {
+        console.log("scroll left")
+        scrollElement.current.scrollLeft -= 30
+
+    }
+    const scrollRight = () => {
+        console.log("scroll right")
+        scrollElement.current.scrollRight += 30
+
+    }
   
   
     return (
@@ -17,7 +31,7 @@ export default function Homepage() {
                         <h1>GAMING NEWS</h1>
                         <a ><h2>More News &#8680;</h2></a>
                 </section>
-                <div className={css.scroller}>
+                <div className={css.scroller} ref={scrollElement}>
                     <a className={css.news}>
                         
                         <section className={css.imgsection}>
@@ -56,15 +70,13 @@ export default function Homepage() {
                                 <h2>DIABLO IV</h2>
                             </div>
                             <div className={css.textdivide2}>
-                                <h1>Season 1: Season Of The Malignant begins 20.7</h1>
+                                <h1>DIABLO IV SEASON 1: Season Of The Malignant begins 20.7</h1>
                             </div>
                         </section>   
                     </a>
-
-                    <button className={css.btnLeft}></button>
-                    <button className={css.btnRight}></button>
-
                 </div>
+                <button onClick = {scrollLeft} className={`${css.btnLeft} ${css.scrollBtn}`}>&#8249;</button>
+                <button onClick = {scrollRight} className={`${css.btnRight} ${css.scrollBtn}`}>&#8250;</button>
             </section>
             
             <section className={css.con}>
