@@ -8,18 +8,19 @@
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Agdasima', sans-serif;
-    
+    z-index: 1;
 }
 
 .n1 {
     height: 100px;
-    border-bottom: 1px solid white;
+    
     background-color: rgb(65, 3, 42);
     font-size: 20px;
     box-shadow: 0px 3px 10px black;
 }
 
 .n2 {
+    display: none;
     height: 60px;
     background-color: rgb(52, 2, 34);
     position: sticky;
@@ -239,9 +240,11 @@
 
 .mobileMenuSec0 {
     height: 12%;
+    min-height: 100px;
     width: 100%;
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
     
 }
 
