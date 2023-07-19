@@ -230,6 +230,10 @@ input[type=submit]:hover {
         width: 90%;
     }
 
+    .con {
+        width: 90%;
+    }
+
     .homeside1 {
         display: none;
     }
