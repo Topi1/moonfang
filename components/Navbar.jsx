@@ -116,7 +116,7 @@ export default function Navbar() {
                     <div className='modal'>
                         <div className='modalContent'>
                             <section className="modalSec1">
-                              <h2>Sign In</h2>
+                              <h2>SIGN IN</h2>
                               <form className='modalForm'>
                                 <label htmlFor="signInEmail">Email</label>
                                 <input className='modalInput' type="email" name="email" id="signInEmail" />
@@ -126,10 +126,11 @@ export default function Navbar() {
                               </form>
                             </section>
                             <section className="modalSec2">
-                              <h2>Sign Up</h2>
-                              <button onClick=
+                              <h3>Not registered?</h3>
+                              <h3>&#8250; SIGN UP</h3>
+                              <button className='modalClose' onClick=
                                 {() => close()}>
-                                    Close modal
+                                    Close
                             </button>
                             </section>
                         </div>
