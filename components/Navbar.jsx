@@ -109,19 +109,29 @@ export default function Navbar() {
                 </form>
             </section>
             <section className='mobileMenuSec2'>
-              <Popup trigger={<a><img src={login} className='mobileIcon' /> <p>Sign In / Sign Up</p></a>}
+              <Popup contentStyle={{width: "320px"}} trigger={<a><img src={login} className='mobileIcon' /> <p>Sign In / Sign Up</p></a>}
               modal nested> 
                 {
                   close => (
                     <div className='modal'>
                         <div className='modalContent'>
-                            <h2>Sign In</h2>
-                        </div>
-                        <div>
-                            <button onClick=
+                            <section className="modalSec1">
+                              <h2>Sign In</h2>
+                              <form className='modalForm'>
+                                <label htmlFor="signInEmail">Email</label>
+                                <input className='modalInput' type="email" name="email" id="signInEmail" />
+                                <label htmlFor="signInPass">Password</label>
+                                <input className='modalInput' type="password" name="password" id="signInPass" />
+                                <button disabled type="submit">Log In</button>
+                              </form>
+                            </section>
+                            <section className="modalSec2">
+                              <h2>Sign Up</h2>
+                              <button onClick=
                                 {() => close()}>
                                     Close modal
                             </button>
+                            </section>
                         </div>
                     </div>
                 )

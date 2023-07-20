@@ -124,7 +124,7 @@ export default function Homepage() {
                         </div>
                         <div className={css.newsLetterSection2}>
                             <form>
-                                <input type="email" name="" id="" placeholder='Enter your email here'/>
+                                <input className={css.newsEmail} type="email" name="" id="" placeholder='Enter your email here'/>
                             </form>
                             <input type="submit" value="Submit" />
                         </div>

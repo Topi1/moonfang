@@ -237,7 +237,7 @@
     width: 50%;
 }
 
-input[type=email] {
+.newsEmail {
     height: 35px;
     width: 100%;
     border: 0;
@@ -245,14 +245,13 @@ input[type=email] {
     font-size: 19px;
     color: rgb(39, 1, 26);
     background-color: #cf7ecb;
-    box-shadow: 0px 3px 10px rgb(0, 0, 0);
-    
+    box-shadow: 0px 3px 10px rgb(0, 0, 0); 
 }
-input[type=email]:focus {
+.newsEmail:focus {
    outline: none;
    
 }
-input[type=email]::placeholder {
+.newsEmail::placeholder {
     color: rgb(39, 1, 26);
     opacity: 0.6;
  }
