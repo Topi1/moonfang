@@ -1,4 +1,8 @@
 import React, {useState} from 'react'
+
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+
 import "./Navbar.css"
 import logo from "../pictures/FangLogo.png"
 import logo2 from "../pictures/FangText.png"
@@ -44,7 +48,7 @@ export default function Navbar() {
                             <a >DIABLO IV</a>
                             <a >DIABLO II</a>
                             <a >ELDEN RING</a>
-                            <a >FORUMS
+                            <a >ALL GAMES
                             {/*<img src={forumIcon} alt="" className='forumicon'/> */}
                             </a>
                         
@@ -105,7 +109,25 @@ export default function Navbar() {
                 </form>
             </section>
             <section className='mobileMenuSec2'>
-              <a><img src={login} className='mobileIcon' /> <p>Sign In / Sign Up</p></a>
+              <Popup trigger={<a><img src={login} className='mobileIcon' /> <p>Sign In / Sign Up</p></a>}
+              modal nested> 
+                {
+                  close => (
+                    <div className='modal'>
+                        <div className='modalContent'>
+                            <h2>Sign In</h2>
+                        </div>
+                        <div>
+                            <button onClick=
+                                {() => close()}>
+                                    Close modal
+                            </button>
+                        </div>
+                    </div>
+                )
+                }
+              </Popup>
+
               <a><img src={news} className='mobileIcon' /> <p>Gaming News</p></a>
               <a><img src={games} className='mobileIcon' /> <p>Game Guides</p></a>
               <a><img src={contact} className='mobileIcon' /> <p>Contact</p></a>
