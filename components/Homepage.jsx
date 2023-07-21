@@ -5,8 +5,15 @@ import css from "./Homepage.module.css"
 import mindflayer from "../pictures2/mindflayer.jpg"
 import eldenNews from "../pictures2/eldenNews.jpg"
 import diabloNews from "../pictures2/diabloNews.jpg"
-
 import inarius from "../pictures2/inarius.jpg"
+
+import HalfOrc from "../pictures/BaldursImages/HALF ORC.png"
+import Party from "../pictures/BaldursImages/PARTY.png"
+
+import Inarius from "../pictures/DiabloImages/Inarius.png"
+import Necromancer from "../pictures/DiabloImages/Necromancer.jpg"
+
+import Wolf from "../pictures/EldenRingImages/wolf.jpg"
 
 export default function Homepage() {
 
@@ -43,7 +50,7 @@ export default function Homepage() {
                     <a className={css.news}>
                         
                         <section className={css.imgsection}>
-                            <img src={mindflayer} alt="" className={css.articlepic}/>
+                            <img src={Party} alt="" className={css.articlepic}/>
                         </section>
                         <section className ={css.textsection}>
                             <div className={css.textdivide1}>
@@ -57,7 +64,7 @@ export default function Homepage() {
                     <a className={css.news}>
                         
                         <section className={css.imgsection}>
-                            <img src={eldenNews} alt="" className={css.articlepic}/>
+                            <img src={Wolf} alt="" className={css.articlepic}/>
                         </section>
                         <section className ={css.textsection}>
                             <div className={css.textdivide1}>
@@ -71,7 +78,7 @@ export default function Homepage() {
                     <a className={css.news}>
                         
                         <section className={css.imgsection}>
-                            <img src={diabloNews} alt="" className={css.articlepic}/>
+                            <img src={Necromancer} alt="" className={css.articlepic}/>
                         </section>
                         <section className ={css.textsection}>
                             <div className={css.textdivide1}>
@@ -98,7 +105,7 @@ export default function Homepage() {
                 
                     <a className={css.news}>
                         <section className={css.imgsection}>
-                            <img src={inarius} alt="" className={css.articlepic}/>
+                            <img src={Inarius} alt="" className={css.articlepic}/>
                         </section>  
                         <section className ={css.textsection}>
                             <div className={css.textdivide1}>

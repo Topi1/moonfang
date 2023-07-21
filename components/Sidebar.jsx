@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import "./Sidebar.css"
+import SignInModal from './SignInModal'
+
 import logo2 from "../pictures/FangText.png"
 import logo from "../pictures/FangLogo.png"
 import menu from "../pictures/Hamburger.png"
@@ -111,6 +113,7 @@ function handleClick() {
                 </section> :null}
 
             </footer>
+            
     </div>
   )
 }

@@ -1,0 +1,90 @@
+/* Popup Sing In*/
+
+
+.modal {
+    align-self: center;
+    justify-self: center;
+    z-index: 6;
+    display: flex;
+}
+
+.modalContent {
+    z-index: 7;
+    
+    outline: none;
+    border: none;
+    font-family: 'Agdasima', sans-serif;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(39, 1, 26);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalSec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60%;
+    width: 100%;
+}
+
+.modalSec1 form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.modalSec2 {
+    position: relative;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalForm label {
+    align-self: start;
+}
+
+.modalInput {
+    height: 30px;
+    width: 100%;
+    border: 0;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 19px;
+    color: rgb(39, 1, 26);
+    background-color: #cf7ecb;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0); 
+}
+.modalInput:focus {
+   outline: none;
+   
+}
+.modalInput::placeholder {
+    color: rgb(39, 1, 26);
+    opacity: 0.6;
+ }
+
+.modalClose {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30px;
+    border: none;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 19px;
+    color: white;
+    background-color: rgb(81, 9, 58);
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
