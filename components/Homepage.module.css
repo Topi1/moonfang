@@ -278,6 +278,7 @@ input[type=submit]:hover {
 .homeside1 {
     width: 15%;
     height: 100%;
+    position: relative;
     
 }
 
@@ -286,6 +287,26 @@ input[type=submit]:hover {
     height: 100%;
     background-color: rgb(65, 3, 42);
     box-shadow: 0px 3px 10px black;
+}
+
+/*BG */
+
+.siteBgImg {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-self: center;
+    
+}
+
+.siteBgImg img{
+    object-fit: contain;
+    height: auto;
+    
 }
 
 /* Media queries */
@@ -366,6 +387,10 @@ input[type=submit]:hover {
 
     .slideInfo {
         display: flex;
+    }
+
+    .siteBgImg {
+        display: none;
     }
 
 }

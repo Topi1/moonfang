@@ -2,12 +2,11 @@ import React, {useRef} from 'react'
 
 import css from "./Homepage.module.css"
 
-import mindflayer from "../pictures2/mindflayer.jpg"
-import eldenNews from "../pictures2/eldenNews.jpg"
-import diabloNews from "../pictures2/diabloNews.jpg"
-import inarius from "../pictures2/inarius.jpg"
+import BigWolf from "../pictures2/bigwolf.png"
+import BigWolf2 from "../pictures2/bigwolf 2.png"
+import WolfHead from "../pictures2/wolfhead.png"
+import WolfHead2 from "../pictures2/wolfhead2.png"
 
-import HalfOrc from "../pictures/BaldursImages/HALF ORC.png"
 import Party from "../pictures/BaldursImages/PARTY.png"
 
 import Inarius from "../pictures/DiabloImages/Inarius.png"
@@ -38,7 +37,12 @@ export default function Homepage() {
   
     return (
         <div className={css.homemain}>
-            <div className={css.homeside1}></div>
+            <div className={css.siteBgImg}><img src={WolfHead2} alt="" /></div>
+            
+            <div className={css.homeside1}>
+
+            </div>
+
             <div className={css.maincon}>
 
             <section className={css.con}>
