@@ -112,7 +112,7 @@ export default function Homepage() {
                                 <h2>DIABLO IV</h2>
                             </div>
                             <div className={css.textdivide2}>
-                                <h1>Defeat the forces of hell with our character builds</h1>
+                                <h1>Defeat the forces of Hell with our character builds</h1>
                             </div>
                         </section>
                     </a>

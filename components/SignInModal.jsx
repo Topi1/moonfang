@@ -3,13 +3,18 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import "./SignInModal.css"
 import Sidebar from './Sidebar';
+import props from 'prop-types';
 
-export default function SignInModal() {
+class SignInModal extends React.Component {
+
+    render() {
+
   return (
-                <Popup contentStyle={{width: "320px"}} trigger={<a >SIGN IN</a>}
+                <Popup contentStyle={{width: "320px"}} 
+                closeOnEscape={false} keepTooltipInside={true} open={this.props.open}
                 modal nested> 
                     {
-                    close => (
+                    () => (
                     <div className='modal'>
                         <div className='modalContent'>
                             <section className="modalSec1">
@@ -24,9 +29,9 @@ export default function SignInModal() {
                             </section>
                             <section className="modalSec2">
                               <h3>Not registered?</h3>
-                              <h3>&#8250; SIGN UP</h3>
+                              <a><h3>&#8250; SIGN UP</h3></a>
                               <button className='modalClose' onClick=
-                                {() => close()}>
+                                {() => this.props.setOpen(false)}>
                                     Close
                             </button>
                             </section>
@@ -39,3 +44,6 @@ export default function SignInModal() {
               
   )
 }
+}
+
+export default SignInModal;

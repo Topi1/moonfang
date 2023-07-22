@@ -49,7 +49,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    
+}
+
+.modalSec2 a {
+    transition: 0.3s;
+}
+
+.modalSec2 a:hover {
+    cursor: pointer;
+    text-decoration: underline #cf7ecb;
+    color: #cf7ecb;  
 }
 
 .modalForm label {

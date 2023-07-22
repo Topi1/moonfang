@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import props from 'prop-types';
 import "./Sidebar.css"
 import SignInModal from './SignInModal'
 import Popup from 'reactjs-popup';
@@ -22,6 +23,8 @@ import youtube from "../pictures/ytIcon.png"
 
 
 export default function Sidebar() {
+
+const [open, setOpen] = useState(false)
 
 const [style, setStyle] = useState("sidebar");
 
@@ -72,11 +75,12 @@ function handleClick() {
                     {showHover1 && (
                     <div className="submenu1">
                         
-                        <SignInModal/>
+                        <a onClick={() => setOpen(true)}>SIGN IN</a>
                         
                         <a >SIGN UP</a>
                         
                     </div>)}
+                    <SignInModal setOpen={setOpen} open={open}/>
 
                 </a>
                 <a className='sidelink' 
