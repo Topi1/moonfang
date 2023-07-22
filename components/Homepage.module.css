@@ -294,10 +294,10 @@ input[type=submit]:hover {
 .siteBgImg {
     position: fixed;
     z-index: -1;
-    width: 100%;
+    width: 2000px;
     height: 100%;
     top: 50%;
-    left: 60%;
+    left: 80%;
     transform: translate(-50%, -50%);
     align-self: center;
     

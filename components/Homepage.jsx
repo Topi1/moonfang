@@ -37,14 +37,14 @@ export default function Homepage() {
   
     return (
         <div className={css.homemain}>
-            <div className={css.siteBgImg}><img src={WolfHead2} alt="" /></div>
+            
             
             <div className={css.homeside1}>
 
             </div>
 
             <div className={css.maincon}>
-
+            <div className={css.siteBgImg}><img src={WolfHead2} alt="" /></div>
             <section className={css.con}>
                 <section className={css.headers}>
                         <h1>GAMING NEWS</h1>
