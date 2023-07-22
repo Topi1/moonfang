@@ -128,7 +128,7 @@ export default function Navbar() {
                             </section>
                             <section className="modalSec2">
                               <h3>Not registered?</h3>
-                              <h3>&#8250; SIGN UP</h3>
+                              <a><h3>&#8250; SIGN UP</h3></a>
                               <button className='modalClose' onClick=
                                 {() => close()}>
                                     Close
