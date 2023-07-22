@@ -1,6 +1,9 @@
 import React, {useState} from 'react'
 import "./Sidebar.css"
 import SignInModal from './SignInModal'
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import "./SignInModal.css"
 
 import logo2 from "../pictures/FangText.png"
 import logo from "../pictures/FangLogo.png"
@@ -68,8 +71,9 @@ function handleClick() {
 
                     {showHover1 && (
                     <div className="submenu1">
-
-                        <a >SIGN IN</a>
+                        
+                        <SignInModal/>
+                        
                         <a >SIGN UP</a>
                         
                     </div>)}

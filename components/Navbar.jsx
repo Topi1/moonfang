@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import SignInModal from './SignInModal';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import "./SignInModal.css"
 
 import "./Navbar.css"
 import logo from "../pictures/FangLogo.png"

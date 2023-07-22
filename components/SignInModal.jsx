@@ -2,13 +2,14 @@ import React from 'react'
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import "./SignInModal.css"
+import Sidebar from './Sidebar';
 
 export default function SignInModal() {
   return (
-    <Popup contentStyle={{width: "320px"}}
-              modal nested> 
-                {
-                  close => (
+                <Popup contentStyle={{width: "320px"}} trigger={<a >SIGN IN</a>}
+                modal nested> 
+                    {
+                    close => (
                     <div className='modal'>
                         <div className='modalContent'>
                             <section className="modalSec1">
@@ -30,9 +31,11 @@ export default function SignInModal() {
                             </button>
                             </section>
                         </div>
-                    </div>
-                    )
-                }
-        </Popup>
+                    </div> 
+                          )
+                        } 
+                </Popup>
+                      
+              
   )
 }
