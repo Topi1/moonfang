@@ -29,7 +29,7 @@ export default function Homepage() {
     }
     const scrollRight = () => {
         console.log("scroll right")
-        scrollElement.current.scrollLeft += 1000
+        scrollElement.current.scrollLeft += 850
         console.log(scrollElement.current.scrollLeft)
 
     } 
