@@ -22,7 +22,7 @@
     font-family: 'Agdasima', sans-serif;
     color: #cf7ecb;
     gap: 20px;
-    
+    overflow-x: hidden;
     
 }
 
@@ -300,7 +300,7 @@ input[type=submit]:hover {
     left: 80%;
     transform: translate(-50%, -50%);
     align-self: center;
-    
+    opacity: 0.4;
 }
 
 .siteBgImg img{
