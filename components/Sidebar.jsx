@@ -4,6 +4,7 @@ import "./Sidebar.css"
 import SignInModal from './SignInModal'
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import { BrowserRouter, Route, Link } from "react-router-dom"; 
 import "./SignInModal.css"
 
 import logo2 from "../pictures/FangText.png"
@@ -77,7 +78,7 @@ function handleClick() {
                         
                         <a onClick={() => setOpen(true)}>SIGN IN</a>
                         
-                        <a >SIGN UP</a>
+                        <Link> SIGN UP</Link>
                         
                     </div>)}
                     <SignInModal setOpen={setOpen} open={open}/>
@@ -92,22 +93,22 @@ function handleClick() {
                     {showHover2 && (
                     <div className="submenu2">
 
-                        <a >BALDUR'S GATE III</a>
-                        <a >DIABLO IV</a>
-                        <a >DIABLO II</a>
-                        <a >ELDEN RING</a>
+                        <Link to="/baldursgate3">BALDUR'S GATE III</Link>
+                        <Link to="/diablo4">DIABLO IV</Link>
+                        <Link to="/diablo2">DIABLO II</Link>
+                        <Link to="/eldenring">ELDEN RING</Link>
                     
                     </div>)}
 
                 </a>
-                <a  className='sidelink'> 
+                <Link to="/gamenews" className='sidelink'> 
                     <section className="iconsection"><img src={news} alt="" className='sidebaricon'/></section> 
                     {!show ? <p>NEWS</p> :null}
-                </a>
-                <a  className='sidelink'> 
+                </Link>
+                <Link  className='sidelink'> 
                     <section className="iconsection"><img src={contact} alt="" className='sidebaricon'/></section> 
                     {!show ? <p>CONTACT</p> :null}
-                </a>
+                </Link>
             </section>
 
 
