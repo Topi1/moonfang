@@ -96,10 +96,10 @@ export default function Navbar() {
 
                  
           <nav className="mobilenav" style={{position: show ? "sticky" : "fixed"}}>
-            <Link to="/moonfang/"><section className='mobileNavSec1'>
+            <section className='mobileNavSec1'> 
               <img src={logo} alt="" className='mobileLogo1'/>
-              <img src={logo2} alt="" className='mobileLogo2'/>
-            </section></Link>
+              <img src={logo2} alt="" className='mobileLogo2'/> 
+            </section>
             <section className='mobileNavSec2'>
               <img src={menu} onClick={() => handleClick()} className='mobileMenuIcon'/>
             </section>
