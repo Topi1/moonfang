@@ -1,4 +1,8 @@
 import React, {useState} from 'react'
+
+import { BrowserRouter, Route, Link } from "react-router-dom"; 
+
+
 import SignInModal from './SignInModal';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
@@ -38,13 +42,14 @@ export default function Navbar() {
         <nav className="navbar n1">
                     
                     <section className="logonavsec">
-                        <img src={logo} alt="" className='logo logo1'/>
+                        <Link to="/moonfang/"><img src={logo} alt="" className='logo logo1'/></Link>
+                        
                     </section>
                     
                     
                     <section className="navsection">
-                        
-                            <a >NEWS</a>
+                            
+                            <a ><Link to="/gamenews">NEWS</Link></a> 
                             <a >BALDUR'S GATE III</a>
                             <a >DIABLO IV</a>
                             <a >DIABLO II</a>
@@ -52,9 +57,9 @@ export default function Navbar() {
                             <a >ALL GAMES
                             {/*<img src={forumIcon} alt="" className='forumicon'/> */}
                             </a>
+                            
                         
-                        
-                    </section>
+                    </section> 
                     <section className="smallnavsec">
                       <section className="navSocials">
                         <a ><img src={twitter} className='navImg' alt="" /></a>

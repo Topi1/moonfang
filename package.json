@@ -2,7 +2,7 @@
   "name": "moonfang-ver-1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://topi1.github.io/moonfang-1",
+  "homepage": "https://topi1.github.io/moonfang",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -16,7 +16,9 @@
     "pure-react-carousel": "^1.30.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "reactjs-popup": "^2.0.5"
+    "react-router-dom": "^6.14.2",
+    "reactjs-popup": "^2.0.5",
+    "styled-components": "^6.0.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
