@@ -213,6 +213,7 @@
 
 .mobileLogo1 {
     height: 90%;
+    
     padding-left: 1em;
 }
 .mobileLogo2 {
@@ -343,6 +344,7 @@ button[type=submit]:hover {
     padding-left: 3.5em;
     height: 17%;
     width: 100%;
+    color: #cf7ecb;
     
 }
 

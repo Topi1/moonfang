@@ -49,14 +49,14 @@ export default function Navbar() {
                     
                     <section className="navsection">
                             
-                            <a ><Link to="/gamenews">NEWS</Link></a> 
-                            <a >BALDUR'S GATE III</a>
-                            <a >DIABLO IV</a>
-                            <a >DIABLO II</a>
-                            <a >ELDEN RING</a>
-                            <a >ALL GAMES
+                            <Link to="/gamenews">NEWS</Link>
+                            <Link to="/baldursgate3"> BALDUR'S GATE III</Link>
+                            <Link to="/diablo4"> DIABLO IV</Link>
+                            <Link to="/diablo2">DIABLO II</Link>
+                            <Link to="/eldenring">ELDEN RING</Link>
+                            <Link to="/forums">FORUMS</Link>
                             {/*<img src={forumIcon} alt="" className='forumicon'/> */}
-                            </a>
+                            
                             
                         
                     </section> 
@@ -96,10 +96,10 @@ export default function Navbar() {
 
                  
           <nav className="mobilenav" style={{position: show ? "sticky" : "fixed"}}>
-            <section className='mobileNavSec1'>
+            <Link to="/moonfang/"><section className='mobileNavSec1'>
               <img src={logo} alt="" className='mobileLogo1'/>
               <img src={logo2} alt="" className='mobileLogo2'/>
-            </section>
+            </section></Link>
             <section className='mobileNavSec2'>
               <img src={menu} onClick={() => handleClick()} className='mobileMenuIcon'/>
             </section>
@@ -145,9 +145,10 @@ export default function Navbar() {
                 }
               </Popup>
 
-              <a><img src={news} className='mobileIcon' /> <p>Gaming News</p></a>
-              <a><img src={games} className='mobileIcon' /> <p>Game Guides</p></a>
-              <a><img src={contact} className='mobileIcon' /> <p>Contact</p></a>
+              
+              <Link to="/gamenews"><img src={news} className='mobileIcon' /> <p>Gaming News</p></Link>
+              <Link><img src={games} className='mobileIcon' /> <p>Game Guides</p></Link>
+              <Link><img src={contact} className='mobileIcon' /> <p>Contact</p></Link>
               
             </section>     
           </div>

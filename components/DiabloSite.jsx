@@ -17,7 +17,7 @@ import Necromancer from "../pictures/DiabloImages/Necromancer.jpg"
 
 import Wolf from "../pictures/EldenRingImages/wolf.jpg"
 
-export default function NewsPage() {
+export default function DiabloSite() {
 
    
 
@@ -36,7 +36,7 @@ export default function NewsPage() {
 
               <div className={newsCss.newsMain}>
                 <section className={newsCss.header}>
-                  <h1>NEWS</h1>
+                  <h1>DIABLO IV</h1>
                 </section>
               </div>
             

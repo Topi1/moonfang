@@ -1,5 +1,5 @@
 import React, {useRef} from 'react'
-
+import { BrowserRouter, Route, Link } from "react-router-dom"; 
 import css from "./Homepage.module.css"
 
 import BigWolf from "../pictures2/bigwolf.png"
@@ -38,7 +38,7 @@ export default function HomePageContent() {
             <section className={css.con}>
                 <section className={css.headers}>
                         <h1>GAMING NEWS</h1>
-                        <a ><h2>All News &#8680;</h2></a>
+                        <Link to="/gamenews"><h2>All News &#8680;</h2></Link>
                 </section>
                 <div className={css.scroller} ref={scrollElement}>
                     <a className={css.news}>
