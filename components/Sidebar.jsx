@@ -60,7 +60,7 @@ function handleClick() {
                 )}
                 
                 {!show ?   
-                <img src={logo2} alt="" className='logo sidelogo'/>
+                <Link to="/moonfang/"><img src={logo2} alt="" className='logo sidelogo'/></Link>
                 :null}
 
             </section>
