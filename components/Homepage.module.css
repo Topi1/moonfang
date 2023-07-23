@@ -301,6 +301,7 @@ input[type=submit]:hover {
     transform: translate(-50%, -50%);
     align-self: center;
     opacity: 0.4;
+    overflow: hidden;
 }
 
 .siteBgImg img{
